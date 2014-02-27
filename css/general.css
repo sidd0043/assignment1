@@ -1,0 +1,102 @@
+@charset "uft-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    
+    font-size: 100%;
+    display: block;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    color: #0099CC;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+.billboard {
+    overflow:hidden;
+    background-image: url(/Users/Mukkadas/Documents/Graphic%20design%20semester%201/interaction%20design%201/github/Assignment1/"images/kill-lois.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40rem;
+}
+
+.logo {
+    height: 4.5rem;
+    width:auto;
+    margin:.5rem 5%;    
+}
+
+.masthead {
+    overflow:hidden;
+}
+
+body {
+    background:;
+}
+
+h1 {
+    color:;
+}
+
+footer {
+    background: yellow;
+    overflow:hidden
+}
+
+
+p {
+    color:black;
+}
+
+.dropcap: first-letter {
+    font-size: 6rem;
+    font-weight: bold;
+    float:left;
+    margin: 2rem 1rem 1.5rem 0;
+    color: blue;
+}
+
+footer {
+    background-color:#0099CC;
+    overflow: hidden;
+}
+
+header {
+    color: ;
+}
+
+.billboard {
+    overflow:hidden;
+    background-image:url(/Users/Mukkadas/Documents/Graphic%20design%20semester%201/interaction%20design%201/github/Assignment1/images/Kill-Lois.jpg);
+}
+
+    
+    
