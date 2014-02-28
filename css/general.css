@@ -19,6 +19,7 @@ html {
     text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Gerogia, serif;
     display: block;
 }
 
@@ -28,7 +29,6 @@ img {
 }
 
 body {
-    color: #0099CC;
     margin: 0;
     padding: 0;
 }
@@ -41,47 +41,36 @@ article {
 
 .billboard {
     overflow:hidden;
-    background-image: url(/Users/Mukkadas/Documents/Graphic%20design%20semester%201/interaction%20design%201/github/Assignment1/"images/kill-lois.jpg");
+    background-image:url(../images/fart2.jpg);
     background-color: black;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 40rem;
-}
-
-.logo {
-    height: 4.5rem;
-    width:auto;
-    margin:.5rem 5%;    
-}
-
-.masthead {
-    overflow:hidden;
-}
-
-body {
-    background:;
+    background-image: center center; 
+    background-size: 100%;
+    margin: 0 0 1.5rem;
 }
 
 h1 {
-    color:;
+    float: right;
+    margin: 65% 1rem 0;
+    color: #0099CC;
 }
 
-footer {
-    background: yellow;
-    overflow:hidden
+.logo {
+    height: 2.5rem;
+    width:auto;
+    margin:.5rem .5%;    
 }
 
-
-p {
-    color:black;
+.masterhead {
+    overflow:hidden;
 }
 
-.dropcap: first-letter {
-    font-size: 6rem;
+.dropcap:first-letter {
+    font-size: 4rem;
     font-weight: bold;
-    float:left;
-    margin: 2rem 1rem 1.5rem 0;
-    color: blue;
+    color: #0099CC;
+    float: left;
+    margin: .5rem 1rem 0;
 }
 
 footer {
@@ -89,14 +78,59 @@ footer {
     overflow: hidden;
 }
 
-header {
-    color: ;
+footer p {
+    font-size: 1rem;
+    color: white;
 }
 
-.billboard {
-    overflow:hidden;
-    background-image:url(/Users/Mukkadas/Documents/Graphic%20design%20semester%201/interaction%20design%201/github/Assignment1/images/Kill-Lois.jpg);
+footer a {
+    color: white;
 }
 
+blockquote {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+blockquote span {
+    color: #0099CC;
+    float: right;
+    margin: 2.5rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+blockquote p {
+    font-size: 1.4rem;
+    padding: 1rem 0 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 2.5rem;
+    color: #0099CC;
+    float: left;
+    margin: -.5rem 0 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 2rem;
+    color: #0099CC;
+    position: absolute;
+    margin: -0.3rem 0 0;
     
-    
+}
+
+h2 {
+    color: #0099CC;
+}
+
+p {
+    line-height: 1.5rem;
+}
+        
+
+            
+            
